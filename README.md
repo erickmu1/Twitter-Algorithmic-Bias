@@ -1,5 +1,11 @@
 # Image Crop Analysis
 
+---
+New additions to the code base can be found in the [CustomNotebooks](CustomNotebooks) directory:
+- `RunSaliency.ipynb` batch runs Twitter's saliency + cropping algorithm on all images in a folder and saves the results to another folder. The results contain a saliency map, the resulting crop for different aspect ratios and a point-wise saliency plot.
+- `MergeImages.ipynb` stitches two images vertically. Comparison results are produced by stitching two result images together.
+---
+
 [![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/twitter-research/image-crop-analysis) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/twitter-research/image-crop-analysis/HEAD)
 
 ![How does a saliency algorithm work](https://cdn.cms-twdigitalassets.com/content/dam/blog-twitter/engineering/en_us/insights/2021/imagecropping/newimagecropanimations.gif)
