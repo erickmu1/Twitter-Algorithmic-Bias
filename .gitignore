@@ -147,3 +147,7 @@ data/images/*
 data/*.jpeg
 notebooks/*.jpeg
 notebooks/*.jpg
+
+# HALT Data + Results
+!HALT_data/*
+!HALT_results/*

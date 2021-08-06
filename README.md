@@ -4,6 +4,11 @@
 New additions to the code base can be found in the [CustomNotebooks](CustomNotebooks) directory:
 - `RunSaliency.ipynb` batch runs Twitter's saliency + cropping algorithm on all images in a folder and saves the results to another folder. The results contain a saliency map, the resulting crop for different aspect ratios and a point-wise saliency plot.
 - `MergeImages.ipynb` stitches two images vertically. Comparison results are produced by stitching two result images together.
+
+The relevant data can be found in:
+
+- [`HALT_data`](HALT_data): images used to produce results for the report
+- [`HALT_results`](HALT_results): results presented in the report
 ---
 
 [![Open All Collab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/twitter-research/image-crop-analysis) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/twitter-research/image-crop-analysis/HEAD)
